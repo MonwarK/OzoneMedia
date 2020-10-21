@@ -5,6 +5,7 @@
 /* background color */
 
 body{
+    overflow-x: hidden;
     background-color: #dbdbdb;
 }
 
