@@ -1,0 +1,105 @@
+.navbar-brand img{
+    width: 100px
+}
+
+/* background color */
+
+body{
+    background-color: #dbdbdb;
+}
+
+.white-background{
+    background-color: #dbdbdb;
+}
+
+.dark-background{
+    background-color: #000;
+}
+
+.orange-background{
+    background-color: #f0a500;
+}
+
+/* text colour */
+
+.white-text{
+    color: #fff;
+}
+
+.black-text{
+    color: #1a1a2e;
+}
+
+/* Container Settings */
+
+section{
+    position: relative;
+}
+
+iframe{
+    max-width: 560px;
+    width: 100%;
+    height: 315px;
+}
+
+/* Container Positioning */
+
+.container-fluid{
+    width: 80%;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.left-text{
+    text-align: left;
+}
+
+.center-container{
+    margin: 0 auto;
+}
+
+/* padding */
+
+.sm-padding-vertical{
+    padding: 2rem 0;
+}
+
+.md-padding-vertical{
+    padding: 7rem 0;
+}
+
+.lg-padding-vertical{
+    padding: 12rem 0;
+}
+
+/* margin */
+
+.sm-margin-vertical{
+    margin: 2rem 0;
+}
+
+/* form */
+
+form{
+    margin: 0;
+    padding: 0;
+}
+
+input[type="text"], input[type="email"],textarea{
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 1.1rem;
+    padding: 0.7rem;
+    max-width: 400px;
+    width: 90%;
+    height: auto;
+}
+
+@media (max-width: 800px){
+    #title img{
+        display:  none;
+    }
+}
